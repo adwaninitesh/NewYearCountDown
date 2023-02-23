@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    font-weight: bold;
+}
+
+div,
+p {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+div {
+    background-image: url("countdown-bg.jpg");
+    background-size: cover;
+    height: 100vh;
+    flex-direction: column;
+}
+
+p {
+    font-size: 2rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.568);
+    width: 100%;
+    padding: 2rem 0;
+}
+
+span {
+    padding: 2rem 3rem;
+    font-size: 3rem;
+    color: whitesmoke;
+    margin-bottom: 1rem;
+    letter-spacing: 3;
+    background-color: rgba(0, 0, 0, 0.5);
+}
